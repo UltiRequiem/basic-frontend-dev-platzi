@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello CSS</title>
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      :root {
+        height: 100%;
+        box-sizing: border-box;
+        background-color: palegoldenrod;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      section {
+        height: 100%;
+      }
+
+      * {
+        box-sizing: inherit;
+      }
+
+      body {
+        height: 100%;
+        font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+      }
+
+      header {
+        background: green;
+      }
+
+      h1 {
+        color: red;
+        text-align: center;
+      }
+
+      nav > ul > li {
+        list-style: none;
+        display: inline-block;
+        padding: 2%;
+        background-color: beige;
+      }
+
+      footer > p {
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer {
+        color: blue;
+        background-color: gray;
+        padding: 20;
+      }
+
+      .wrapper {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="wrapper">
+        <header>
+          <h1>My Header</h1>
+        </header>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+
+            <li>
+              <a href="#">Contact</a>
+            </li>
+
+            <li>
+              <a href="#">GitHub</a>
+            </li>
+          </ul>
+        </nav>
+
+        <main>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            eius dolorem rerum deleniti dicta optio pariatur repellat quam
+            dignissimos sapiente atque non, explicabo iste eligendi ullam fuga
+            id recusandae possimus.
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            eius dolorem rerum deleniti dicta optio pariatur repellat quam
+            dignissimos sapiente atque non, explicabo iste eligendi ullam fuga
+            id recusandae possimus.
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            eius dolorem rerum deleniti dicta optio pariatur repellat quam
+            dignissimos sapiente atque non, explicabo iste eligendi ullam fuga
+            id recusandae possimus.
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            eius dolorem rerum deleniti dicta optio pariatur repellat quam
+            dignissimos sapiente atque non, explicabo iste eligendi ullam fuga
+            id recusandae possimus.
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            eius dolorem rerum deleniti dicta optio pariatur repellat quam
+            dignissimos sapiente atque non, explicabo iste eligendi ullam fuga
+            id recusandae possimus.
+          </p>
+        </main>
+
+        <footer>
+          <p>UltiRequiem 2021</p>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
