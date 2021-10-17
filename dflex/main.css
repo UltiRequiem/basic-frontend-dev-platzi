@@ -1,0 +1,39 @@
+body {
+  /* margin: 0; */
+}
+
+.super_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  display: flex;
+  background: salmon;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  height: 200px;
+}
+
+.item {
+  width: 30px;
+  margin: 10px;
+  height: 30px;
+  background: red;
+}
+
+.container .item:nth-child(2n + 1) {
+  background: cyan;
+}
