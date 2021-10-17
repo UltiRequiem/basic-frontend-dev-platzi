@@ -5,7 +5,7 @@
 ## Index
 
 - [Hello](https://ultirequiem.github.io/basic-frontend-dev-platzi/hello.html)
-- [Semantic](https://github.com/UltiRequiem/basic-frontend-dev-platzi/blob/main/semantic.html)
+- [Semantic](https://ultirequiem.github.io/basic-frontend-dev-platzi/semantic.html)
 - [Sticky Footer](https://ultirequiem.github.io/basic-frontend-dev-platzi/stickyFooter/)
 - [CSS One](https://ultirequiem.github.io/basic-frontend-dev-platzi/cssOne/)
 - [CSS Two](https://ultirequiem.github.io/basic-frontend-dev-platzi/cssTwo/)
