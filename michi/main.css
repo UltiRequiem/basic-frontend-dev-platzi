@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+}
+
+#michi {
+  width: 800px;
+}
+
+#stamen {
+  width: 100px;
+  position: absolute;
+  top: 190px;
+  right: 245px;
+}

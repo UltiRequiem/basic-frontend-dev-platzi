@@ -1,0 +1,12 @@
+p {
+  width: 20px;
+  height: 20px;
+  background: plum;
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  border: 2px solid red;
+
+  margin: 20px;
+}
