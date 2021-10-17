@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.my_div {
+  background: salmon;
+  width: 40%;
+  height: 200px;
+  margin: 30px;
+  text-align: center;
+}
+
+button {
+  background: steelblue;
+  width: 340px;
+  height: 340px;
+}
+
+a {
+  background: pink;
+}
