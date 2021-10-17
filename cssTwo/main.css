@@ -1,0 +1,27 @@
+p {
+  color: red;
+}
+
+p::first-letter {
+  color: teal;
+}
+
+p::before {
+  content: "⭐";
+}
+
+p::after {
+  content: "💅";
+}
+
+div input::placeholder {
+  color: blue;
+}
+
+p:hover {
+  color: blue;
+}
+
+div p:nth-child(2) {
+  color: violet;
+}
