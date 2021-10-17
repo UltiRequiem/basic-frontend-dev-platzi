@@ -1,0 +1,61 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: palegoldenrod;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  height: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: green;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 2%;
+  background-color: beige;
+}
+
+footer > p {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  color: blue;
+  background-color: gray;
+  padding: 20;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
