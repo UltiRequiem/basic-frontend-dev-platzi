@@ -1,7 +1,10 @@
 /* I don't know if I hate CSS or I love it.*/
 
-::-webkit-scrollbar {
-  display: none;
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -10,6 +13,7 @@ body {
 }
 
 section {
+  height: 100%;
   display: flex;
   justify-content: space-around;
   align-content: space-between;
