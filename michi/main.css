@@ -3,12 +3,12 @@
 }
 
 #michi {
-  width: 800px;
+  width: 100%;
 }
 
 #stamen {
   width: 100px;
   position: absolute;
-  top: 190px;
-  right: 245px;
+  top: 40%;
+  right: 35%;
 }

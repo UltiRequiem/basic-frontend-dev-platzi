@@ -1,0 +1,13 @@
+div {
+  position: absolute;
+}
+
+.one {
+  z-index: 4;
+  background: green;
+}
+
+.two {
+  z-index: 3;
+  background: blue;
+}
