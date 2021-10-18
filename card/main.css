@@ -1,4 +1,42 @@
+/* I don't know if I hate CSS or I love it.*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.card img {
+  margin: 5%;
+  border-radius: 1%;
+}
+
+section p {
+  text-align: center;
+}
+
+section h1 {
+  color: skyblue;
+}
+
 .card {
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 500px;
+  background-color: papayawhip;
+  overflow: hidden;
+  border-radius: 20px;
+
+  border: blue solid 5px;
 }
